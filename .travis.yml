@@ -1,0 +1,20 @@
+sudo: required
+
+language: python
+
+services:
+  - docker
+
+before_script:
+  - python --version
+  - docker version
+  - docker ps -a
+  - docker build -t clarencep/lap53 .
+  - docker images
+  - docker ps -a
+
+script:
+  - docker run -d -p 8080:80 --name test clarencep/lap53
+  - docker ps 
+  - docker exec test ps -elf
+  - curl -v http://localhost:8080/ || curl -v http://localhost:8080/ || curl -v http://localhost:8080/

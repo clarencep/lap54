@@ -1,0 +1,76 @@
+
+OS Version
+--------------
+CentOS release 6.9 (Final)
+CentOS release 6.9 (Final)
+CentOS release 6.9 (Final)
+
+Apache Version
+--------------
+Server version: Apache/2.2.15 (Unix)
+Server built:   Mar 22 2017 06:52:55
+
+Whereis Apache
+--------------
+httpd: /usr/sbin/httpd.worker /usr/sbin/httpd.event /usr/sbin/httpd /etc/httpd /usr/lib64/httpd
+
+PHP Version
+--------------
+PHP 5.3.3 (cli) (built: Mar 22 2017 12:27:09) 
+Copyright (c) 1997-2010 The PHP Group
+Zend Engine v2.3.0, Copyright (c) 1998-2010 Zend Technologies
+
+PHP Modules
+--------------
+[PHP Modules]
+bz2
+calendar
+Core
+ctype
+curl
+date
+dom
+ereg
+exif
+fileinfo
+filter
+ftp
+gd
+gettext
+gmp
+hash
+iconv
+intl
+json
+libxml
+mysql
+mysqli
+openssl
+pcntl
+pcre
+PDO
+pdo_mysql
+pdo_sqlite
+Phar
+readline
+Reflection
+session
+shmop
+SimpleXML
+soap
+sockets
+SPL
+sqlite3
+standard
+tokenizer
+wddx
+xhprof
+xml
+xmlreader
+xmlwriter
+xsl
+zip
+zlib
+
+[Zend Modules]
+
